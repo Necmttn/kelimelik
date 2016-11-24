@@ -1,0 +1,19 @@
+{
+  "name": "kelimelik",
+  "version": "1.0.0",
+  "description": "Community Driven Dictionary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Necmttn/kelimelik.git"
+  },
+  "author": "Necmettin Karakaya <necmettin.karakaya@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Necmttn/kelimelik/issues"
+  },
+  "homepage": "https://github.com/Necmttn/kelimelik#readme"
+}
