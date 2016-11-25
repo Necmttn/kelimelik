@@ -34,7 +34,7 @@ You can right away start to improve it on your own on GitHub or ping me on Twitt
 
 * [ ] Code splitting
 * [ ] Service Workers
-* [ ] Testing
+* [x] Testing
 
 ## Journey
 
@@ -43,3 +43,9 @@ You can right away start to improve it on your own on GitHub or ping me on Twitt
 First inital Commit. 
 i have been searching for solutions for system. after trying many boilerplates
 i decided write all of them from 0.
+
+
+25 Nov 2016
+
+I have setup testing  with Jest + Enzyme + Chai  which is works like a charm
+also enable HMR with webpack v3 react hot reload 
