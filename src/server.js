@@ -3,7 +3,7 @@ var webpack = require('webpack')
 var express = require('express')
 var devMiddleware = require('webpack-dev-middleware')
 var hotMiddleware = require('webpack-hot-middleware')
-var config = require('./webpack.config')
+var config = require('../webpack.config')
 
 var app = express();
 var compiler = webpack(config);
@@ -17,7 +17,7 @@ app.use(devMiddleware(compiler, {
 app.use(hotMiddleware(compiler))
 
 app.get('*', function (req, res) {
-    res.sendFile(path.join(__dirname, 'dist/index.html'));
+    res.sendFile(path.join(__dirname, '../dist/index.html'));
 })
 
 app.listen(3000, function (err) {
