@@ -5,6 +5,17 @@
 
 There has been issue for existing dicts.  which is not good enough. and not updating enough. 
 
+# A project From Stratch
+I constantly improve the tutorial. 
+If you run into any problems or see room for improvements, please let me know. 
+You can right away start to improve it on your own on GitHub or ping me on Twitter or comments below.
+
+
+## Requirements 
+
+- terminal( e.g. ITerm)
+- text editor (e.g. Visual Studio Code, Atom , Sublime text)
+- node with npm (yarn)
 
 ## Tech
 
@@ -23,7 +34,7 @@ There has been issue for existing dicts.  which is not good enough. and not upda
 
 * [ ] Code splitting
 * [ ] Service Workers
-
+* [ ] Testing
 
 ## Journey
 
