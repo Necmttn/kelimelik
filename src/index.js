@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import R from 'react-dom'
 
 class App extends Component {
