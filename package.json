@@ -4,6 +4,7 @@
   "description": "Community Driven Dictionary",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Necmttn/kelimelik/issues"
   },
-  "homepage": "https://github.com/Necmttn/kelimelik#readme"
+  "homepage": "https://github.com/Necmttn/kelimelik#readme",
+  "dependencies": {
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
 }

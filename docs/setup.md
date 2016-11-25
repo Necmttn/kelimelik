@@ -61,3 +61,15 @@ Two Notes in here:
 - the id="root" attribute will help our React component to find its entry point. 
 
 
+# Webpack setup
+
+we will use Webpack
+
+from root folder
+
+```
+yarn add webpack webpack-dev-server
+```
+
+
+
