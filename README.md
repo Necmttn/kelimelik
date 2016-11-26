@@ -49,3 +49,25 @@ i decided write all of them from 0.
 
 I have setup testing  with Jest + Enzyme + Chai  which is works like a charm
 also enable HMR with webpack v3 react hot reload 
+
+26 Nov 2016
+
+I have setup ngrok for tunnel my development enviroment over internet.  
+
+```
+npm run start:tunnel 
+```
+
+creates 
+```
+Access URLs:
+-----------------------------------
+Localhost: http://localhost:3000
+      LAN: http://192.168.133.185:3000
+    Proxy: https://39742637.ngrok.io  // ngrok creates random url for my each deploy.
+-----------------------------------
+Press CTRL-C to stop
+```
+
+
+it's also hot reload ... it's so Cool 😍

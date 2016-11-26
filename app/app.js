@@ -7,7 +7,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <h1>ZIHAN ❤️ NECO </h1>
+                <h1>Hey hoba</h1>
                 <Link to="http://google.com">Google</Link>
             </div>
         )
