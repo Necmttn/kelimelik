@@ -4,7 +4,8 @@
   "description": "Community Driven Dictionary",
   "main": "index.js",
   "scripts": {
-    "start": "node server",
+    "start": "cross-env NODE_ENV=development node server",
+    "start:tunnel": "cross-env NODE_ENV=development ENABLE_TUNNEL=true node server",
     "test": "jest --watch"
   },
   "repository": {
@@ -25,6 +26,7 @@
     ]
   },
   "dependencies": {
+    "cross-env": "^3.1.3",
     "ip": "^1.1.4",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
@@ -44,6 +46,7 @@
     "express": "^4.14.0",
     "html-webpack-plugin": "^2.24.1",
     "jest": "^17.0.3",
+    "ngrok": "^2.2.4",
     "path": "^0.12.7",
     "react-addons-test-utils": "^15.4.1",
     "react-hot-loader": "^3.0.0-beta.6",
