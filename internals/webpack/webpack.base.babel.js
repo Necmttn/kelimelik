@@ -5,6 +5,13 @@
 const path = require('path');
 const webpack = require('webpack');
 
+// PostCSS plugins
+const cssnext = require('postcss-cssnext');
+// http://cssnext.io/features/
+const postcssFocus = require('postcss-focus');
+// PostCSS plugin to add :focus selector to every :hover for keyboard accessibility.
+const postcssReporter = require('postcss-reporter');
+
 
 module.exports = (options) => ({
   entry: options.entry,
