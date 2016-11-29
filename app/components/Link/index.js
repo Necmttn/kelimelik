@@ -6,7 +6,7 @@ export default class Avatar extends React.Component {
   render() {
     return (
       <div className="avatar">
-        <h2 className={styles.me}>me too</h2>
+        <h2 className={styles.me}>me naber too</h2>
         <p>Hoba naber osman</p>
       </div>
     );

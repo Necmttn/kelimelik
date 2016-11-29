@@ -1,6 +1,10 @@
-:root {
-  --mainColor: blue;
+:global {
+  :root {
+    --mainColor: blue;
+  
+  }
 }
+
 
 
 .me {
